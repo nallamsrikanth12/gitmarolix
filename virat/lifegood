@@ -1,0 +1,10 @@
+#this company has very good products 
+echo "enter the product detalis"
+read product 
+echo "enter the price"
+read price 
+if [[ (  $product details == "lg" && $price == "100000" ) ]] then
+echo "valid user"
+else 
+echo "invalid user"
+fi
